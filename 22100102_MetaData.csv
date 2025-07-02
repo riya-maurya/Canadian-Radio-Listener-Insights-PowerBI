@@ -1,0 +1,81 @@
+﻿"Cube Title","Product Id","CANSIM Id",URL,"Cube Notes","Archive Status",Frequency,"Start Reference Period","End Reference Period","Total number of dimensions"
+"Radio listening, percentage share by radio station format and audience occupation","22100102","503-0005","https://www150.statcan.gc.ca/t1/tbl1/en/tv.action?pid=2210010201",1,"ARCHIVED -  a cube publicly available but no longer being updated","Annual","1999-01-01","2007-01-01","3",
+
+"Dimension ID","Dimension name","Dimension Notes","Dimension Definitions"
+"1","Geography",,""
+"2","Radio station format",,""
+"3","Audience occupation",14,""
+
+"Dimension ID","Member Name","Classification Code","Member ID","Parent Member ID",Terminated,"Member Notes","Member Definitions"
+"1","Canada","","1","","",,
+"2","Other radio station formats","","10","","",11,
+"2","Sports radio format","","11","","",12,
+"2","Talk radio format","","12","","",13,
+"2","United States radio stations","","13","","",,
+"2","Adult contemporary music","","1","","",2,
+"2","Album-oriented-rock music","","2","","",3,
+"2","Canadian Broadcasting Corporation (CBC)","","3","","",4,
+"2","Contemporary music","","4","","",5,
+"2","Country music","","5","","",6,
+"2","Dance music","","6","","",7,
+"2","Easy listening music","","7","","",8,
+"2","Golden-oldies, rock music","","8","","",9,
+"2","Middle-of-the-road music","","9","","",10,
+"3","General labourer","","1","","",,
+"3","Service industry worker","","2","","",,
+"3","Farmer, farm worker","","3","","",,
+"3","Fisheries worker","","4","","",,
+"3","Skilled tradesperson","","5","","",,
+"3","Skilled service worker","","6","","",,
+"3","Technical worker","","7","","",,
+"3","Clerical and related worker","","8","","",,
+"3","Artistic, literary, recreational worker","","9","","",,
+"3","Sales worker","","10","","",,
+"3","Middle manager","","11","","",,
+"3","Store owner, self employed, contractor","","12","","",,
+"3","Senior manager or executive","","13","","",,
+"3","Professional","","14","","",,
+"3","Not working","","15","","",15,
+"3","Occupation unknown","","19","","",,
+
+Symbol Legend
+Description,Symbol
+"not available for a specific reference period","..",
+"less than the limit of detection","<LOD",
+"value rounded to 0 (zero) where there is a meaningful distinction between true zero and the value that was rounded","0s",
+"data quality: excellent","A",
+"data quality: very good","B",
+"data quality: good","C",
+"data quality: acceptable","D",
+"use with caution","E",
+"too unreliable to be published","F",
+"not applicable","...",
+"preliminary","p",
+"revised","r",
+"suppressed to meet the confidentiality requirements of the Statistics Act","x",
+"terminated","t",
+
+"Survey Code","Survey Name"
+"3153","Radio Listening Databank"
+
+"Subject Code","Subject Name"
+"22","Digital economy and society"
+
+"Note ID",Note
+1,"The radio listening data bank is based on a survey conducted by BBM Bureau of Measurement of Canadians aged 12 years and older. The data on listening covers seven specific days and was collected using a log-type questionnaire over an eight-week period from September to October. The information on specific radio station formats is provided by the Canadian Radio-Television and Telecommunications Commission (CRTC)."
+2,"Adult contemporary music: soft-rock and pop music which appeals to an 18- to 34-year-old or 25- to 44-year-old audience, depending on its music orientation."
+3,"Album-oriented rock music: while some stations rely heavily on established rock artists, other stations program lesser known artists and album cuts. Some stations also program less mainstream forms of music such as rhythm 'n blues or fusion jazz. It appeals mostly to an 18- to 34-year-old audience."
+4,"CBC: Canadian Broadcasting Corporation stations (English and French)."
+5,"Contemporary music: largely programs current hits and appeals to a 12- to 34-year-old audience. The format is largely music-oriented with little talk. A hit is defined as a selection that has entered the Top 40 list of music in a major trade magazine."
+6,"Country music: programs country music almost exclusively and appeals to a 25-year-old and over audience."
+7,"Dance music: largely programs dance music with varying degrees of rap and contemporary hits and appeals to a 12- to 34-year-old audience."
+8,"Easy listening music: programs soft largely instrumental music and appeals to a 35-year-old and over audience. The programming often includes cocktail jazz, soft jazz and classics."
+9,"Golden-oldies, rock music: largely programs past hits and selections released within the past 30 years and appeals to a 25- to 44-year-old audience."
+10,"Middle-of-the-road music: programs pop and soft vocal music and appeals to a 35-year-old and over audience. Tends to program artists and selections released prior to 1970."
+11,"Other radio station formats: includes community, educational, ethnic, religion, travel and weather programming."
+12,"Sports radio: sports and sports-oriented programming."
+13,"Talk radio: programs a substantial amount of talk radio which can include public affairs, sports, business and news programming."
+14,"Each person selects which category best describes him/her from a list of occupations provided by BBM Bureau of Measurement of Canadians in the diary."
+15,"Not working includes unemployed persons, students, homemakers and retired persons."
+
+"Correction ID","Correction Date","Correction Note"
